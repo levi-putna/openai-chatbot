@@ -1,0 +1,18 @@
+{
+  "name": "openai-chatbot",
+  "version": "1.0.0",
+  "description": "A simple OpenAI chatbot",
+  "main": "index.js",
+  "repository": "git@github.com:levi-putna/openai-chatbot.git",
+  "author": "Levi Putna <levi.putna@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
